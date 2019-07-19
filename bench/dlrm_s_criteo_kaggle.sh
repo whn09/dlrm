@@ -14,8 +14,8 @@ else
 fi
 #echo $dlrm_extra_option
 
-dlrm_pt_bin="python dlrm_s_pytorch.py"
-dlrm_c2_bin="python dlrm_s_caffe2.py"
+dlrm_pt_bin="python3 dlrm_s_pytorch.py"
+dlrm_c2_bin="python3 dlrm_s_caffe2.py"
 
 echo "run pytorch ..."
 # WARNING: the following parameters will be set based on the data set
